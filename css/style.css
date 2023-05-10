@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url();
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/*Main Styling*/
+
+html,body {
+font-family: 'Courier New', Courier, monospace;
+line-height: 1.4;
+}
+
+a {
+text-decoration: none;
+}
+
+
+
