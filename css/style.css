@@ -31,11 +31,36 @@ text-decoration: none;
     color: orange;
 }
 
+.l-heading{
+    font-size: 2rem;
+}
+
+.bold{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.btn{
+    color: white;
+    background: orange;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+}
+
+.m-1 { margin: 1.25rem; }
+.m-2 { margin: 2rem; }
+.m-3 { margin: 3rem; }
+
+.p-1 { padding: 1.25rem; }
+.p-1 { padding: 2rem; }
+.p-1 { padding: 3rem; }
 
 #navbar{
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+    position: sticky;
+    top: 0;
 }
 
 #navbar a{
@@ -59,3 +84,26 @@ text-decoration: none;
     color: white;
     border-radius: 5px;
 }
+
+#showcase{
+    background: #333 url(../img/shoecase.) center cover no-repeat;
+    height: 100vh;
+}
+
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /*color: white;*/
+}
+
+
+
+
+
+
+
+
