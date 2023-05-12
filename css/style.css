@@ -46,6 +46,10 @@ text-decoration: none;
     font-size: 2rem;
 }
 
+.m-heading{
+    font-size: 1.5rem;
+}
+
 .bold{
     font-size: 1.3rem;
     font-weight: bold;
@@ -65,6 +69,16 @@ text-decoration: none;
 .btn:hover{
     color: orange;
     background: white;
+}
+
+.list{
+    margin: 0.50rem;
+    list-style: none;
+}
+
+.list li{
+    border-bottom: #444 dotted 1px;
+    padding: 0.5rem 0;
 }
 
 .m-1 { margin: 1.25rem; }
@@ -110,7 +124,7 @@ text-decoration: none;
 }
 
 #showcase{
-    background: #333 url(../img/shoecase.) center cover no-repeat;
+    background: #333 url(../img/) center  no-repeat;
     height: 100vh;
 }
 
@@ -141,6 +155,18 @@ text-decoration: none;
     border-radius: 50%;
 }
 
+#section2{
+    display: flex;
+}
 
+#section2 div{
+    flex: 1;
+}
 
+#section2 .img{
+    background: url(../img/) no-repeat center cover;
+}
 
+#section2 .content {
+    text-align: right;
+}
