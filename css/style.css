@@ -1,6 +1,12 @@
 @font-face {
-    font-family: 'Vazir';
-    src: url();
+    @font-face {
+        font-family: 'Vazir';
+        src: url('../fonts/Vazir.eot'); /* IE9 Compat Modes */
+        src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+             url('../fonts/Vazir.woff2') format('woff2'), /* Super Modern Browsers */
+             url('../fonts/Vazir.woff') format('woff'), /* Pretty Modern Browsers */
+             url('../fonts/Vazir.ttf')  format('truetype'), /* Safari, Android, iOS */
+      }
 }
 
 * {
@@ -12,8 +18,8 @@ box-sizing: border-box;
 /*Main Styling*/
 
 html,body {
-font-family: 'Courier New', Courier, monospace;
-line-height: 1.4;
+    font-family: 'Vazir', Arial, Helvetica, sans-serif;
+    line-height: 1.4;
 }
 
 a {
@@ -42,12 +48,21 @@ text-decoration: none;
     color: orange;
 }
 
-.l-heading{
-    font-size: 2rem;
+.text-center{
+    text-align: center;
 }
 
-.m-heading{
-    font-size: 1.5rem;
+.list{
+    margin: 0.54rem 0;
+    list-style: none;
+}
+
+.list li{
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+.l-heading{
+    font-size: 2.5rem;
 }
 
 .bold{
@@ -62,27 +77,17 @@ text-decoration: none;
     border-radius: 5px;
 }
 
-.text-center{
-    text-align: center;
-}
-
 .btn:hover{
     color: orange;
     background: white;
 }
 
-.list{
-    margin: 0.50rem;
-    list-style: none;
-}
+/*.m-heading{
+    font-size: 1.5rem;
+}*/
 
-.list li{
-    border-bottom: #444 dotted 1px;
-    padding: 0.5rem 0;
-}
-
-.m-1 { margin: 1.25rem; }
-.m-2 { margin: 2rem; }
+.m-1 { margin: 1rem; }
+.m-2 { margin: 1.5rem; }
 .m-3 { margin: 3rem; }
 
 .p-1 { padding: 1.25rem; }
@@ -124,10 +129,9 @@ text-decoration: none;
 }
 
 #showcase{
-    background: #333 url(../img/) center  no-repeat;
+    background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
     height: 100vh;
-}
-
+  }
 #showcase .showcase-content{
     display: flex;
     flex-direction: column;
@@ -135,7 +139,7 @@ text-decoration: none;
     justify-content: center;
     align-items: center;
     height: 100%;
-    /*color: white;*/
+    color: white;
 }
 
 #section1 .items{
@@ -163,8 +167,8 @@ text-decoration: none;
     flex: 1;
 }
 
-#section2 .img{
-    background: url(../img/) no-repeat center cover;
+#section2 .img {
+    background: url('../img/section2.jpg') no-repeat center center/cover;
 }
 
 #section2 .content {
@@ -212,6 +216,25 @@ text-decoration: none;
     justify-content: space-between;
     align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
