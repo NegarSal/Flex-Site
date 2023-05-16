@@ -6,4 +6,5 @@
 #section1 .items .item i{
     align-self: center;
     margin-left: 1.3rem;
+    margin-bottom: 0;
 }
